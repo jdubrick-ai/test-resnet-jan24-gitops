@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-resnet-jan24-database-config
+data:
+  VECTORDB_HOST: "test-resnet-jan24-database"
+  VECTORDB_PORT: ""
